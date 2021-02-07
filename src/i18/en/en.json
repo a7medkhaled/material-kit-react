@@ -1,0 +1,11 @@
+{
+  "welcome": "welcome",
+  "Dashboard": "Dashboard",
+  "Customers": "Customers",
+  "Products": "Products",
+  "Account": "Account",
+  "Settings": "Settings",
+  "Login": "Login",
+  "Register": "Register",
+  "Error": "Error"
+}

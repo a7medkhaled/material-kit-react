@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
@@ -125,7 +126,7 @@ const NavBar = ({ onMobileClose, openMobile }) => {
             <NavItem
               href={item.href}
               key={item.title}
-              title={t.apply(item.title)}
+              title={t(item.title)}
               icon={item.icon}
             />
           ))}

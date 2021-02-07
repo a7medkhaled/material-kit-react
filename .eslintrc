@@ -16,6 +16,7 @@
   "rules": {
     "no-underscore-dangle": "off",
     "arrow-body-style": "off",
+    "quotes": "off",
     "comma-dangle": "off",
     "import/no-unresolved": "off",
     "jsx-a11y/anchor-is-valid": "off",
