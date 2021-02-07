@@ -7,9 +7,12 @@ import "src/mixins/chartjs";
 import theme from "src/theme";
 import routes from "src/routes";
 import i18n from "./i18/i18n";
+import withRoot from "./withroot";
 
 const App = () => {
   document.body.dir = i18n.dir();
+  // const theme = useTheme();
+  theme.direction = i18n.dir();
   const routing = useRoutes(routes);
 
   return (
@@ -20,4 +23,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withRoot(App);
